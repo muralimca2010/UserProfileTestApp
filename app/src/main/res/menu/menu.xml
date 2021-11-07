@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bck_btn"
+        android:icon="@drawable/ic_baseline_keyboard_backspace_24"
+        android:orderInCategory="100"
+        android:title="Back"
+        app:showAsAction="always" />
+
+    <item
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/addUser"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:orderInCategory="100"
+        android:title="AddUser"
+        app:showAsAction="always" />
+    <!-- our search option -->
+    <item
+        android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notify"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        android:orderInCategory="100"
+        android:title="Notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="About" />
+
+    <item
+        android:id="@+id/menuSettings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout" />
+
+
+</menu>
